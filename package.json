@@ -1,0 +1,12 @@
+{
+  "name": "hugo-pixyll",
+  "version": "0.0.1",
+  "private": "true",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sass": "^2.1.1",
+    "run-sequence": "^1.1.5"
+  }
+}

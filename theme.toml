@@ -1,0 +1,17 @@
+name = "pixyll"
+license = "MIT"
+licenselink = "https://github.com/jbub/ghostwriter/blob/master/LICENSE.md"
+description = "A port of the pixyll theme"
+homepage = "https://github.com/abautista/hugo-pixyll"
+tags = ["blog", "technical", "personal"]
+features = ["blog", "technical", "personal"]
+min_version = 0.15
+
+[author]
+    name = "Alberto Bautista"
+    homepage = "https://github.com/abautista"
+
+[original]
+    author = "John Otander"
+    homepage = "http://johnotander.com/"
+    repo = "https://github.com/johnotander/pixyll"

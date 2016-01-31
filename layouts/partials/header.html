@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body class="site">
+    <div class="site-wrap">
+      <header class="site-header px2 px-responsive">
+        <div class="mt2 wrap">
+          <div class="measure">
+            <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
+            <nav class="site-nav">
+              {{ range .Site.Menus.navigation }}
+              <a href="{{ .URL }}">{{ .Name }}</a>
+              {{ end }}
+            </nav>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="post p2 p-responsive wrap" role="main">
+        <div class="measure">
